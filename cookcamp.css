@@ -1,0 +1,279 @@
+/* header in */
+body {
+  margin: 0;
+  background-color: #f5f5dd;
+}
+
+#hwrapper {
+  margin: 0;
+  background-color: #fff;
+  min-width: 960px;
+  border-bottom: #ccc solid 1px;
+}
+
+#header {
+  display: flex;
+  width: 960px;
+  margin: 0 auto 8px auto;
+}
+
+.main-logo{
+  width: 40%;
+  margin-top: 10px;
+}
+
+#header h1 {
+  color: #643;
+  font-size: 0.8em;
+  margin: auto auto auto 0;
+}
+
+#header img {
+  width: 50%;
+}
+
+#header form {
+  margin: auto 0 auto auto;
+}
+
+.container {
+  color: #643;
+  width: 960px;
+  height: 20px;
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+}
+
+.container li {
+  color: #643;
+  width: 20%;
+  padding: 0 auto;
+  border-right: solid 1px #643;
+  text-align: center;
+}
+
+.container li:last-child{
+  border-right: none;
+}
+
+.container a {
+  display: block;
+  color: #643;
+  text-decoration: none;
+}
+
+/* header out */
+/* main in */
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-view img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* nav */
+nav {width: 18%;}
+
+.nav-section {
+  min-height: 250px;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.nav-section h1 {
+  background: #9b2;
+  color: #fff;
+  border-radius: 20px;
+  font: 1rem normal;
+  padding: 1px 15px;
+  margin-bottom: 5px;
+  background-image: url(images/icon/dish.png);
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: 10px; 
+  text-indent: 1rem;
+}
+
+.nav-section img {
+  height: 1rem;
+  padding-right: 5px;
+}
+
+.nav-section ul li{
+  border-bottom: #ccc dotted 1px;
+}
+
+.nav-section ul li:last-child{
+  border: none;
+}
+
+.nav-section ul a {
+  display: block;
+  padding: 10px 1.5rem;
+  background-image: url(images/icon/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* article */
+article {width: 63%;}
+
+section{
+  background-color: #fff;
+  padding: 5px;
+  padding-bottom: 1rem;
+  margin-bottom: 10px;
+}
+
+section h1{
+  background: #9b2;
+  color: #fff;
+  border-radius: 20px;
+  font: 1rem normal;
+  padding: 1px 15px;
+  margin-bottom: 10px;
+  background-image: url(images/icon/dish.png);
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: 10px; 
+  text-indent: 1rem;
+}
+
+#new-recipe{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+
+#new-recipe figure{
+  width: 20%;
+  max-width: 115px;
+  height: auto;
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.japan-food{
+  display: flex;
+}
+
+.japan-food img{
+  max-height: 150px;
+  width: auto;
+  margin: 0 10px;
+}
+
+.japan-food p{
+  text-indent: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.2rem;
+}
+
+.continued{
+  text-align: right;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.continued a{
+  padding-left: 1.5rem;
+  background-image: url(images/icon/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  text-decoration: none;
+  color: #fc8833;
+}
+
+.easy-recipe{
+  display: flex;
+}
+
+.easy-recipe img{
+  max-height: 150px;
+  width: auto;
+  margin: 0 10px;
+}
+
+.easy-recipe h2{
+  color: #643;
+  margin-bottom: 1rem;
+}
+
+.easy-recipe p{
+  text-indent: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.2rem;
+} 
+
+/* aside */
+aside {width: 17%;}
+
+.aside-view a{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.aside-view img{
+  width: 100%;
+}
+
+/* main out */
+/* footer in*/
+
+footer{
+  margin: 0;
+  min-height: 70px;
+  background-color: #fff;
+  min-width: 960px;
+  border-top: #ccc solid 1px;
+}
+
+.footer{
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  font-size: 0.6rem;
+  list-style-type: none;
+}
+
+.footer li{
+  width: 25%;
+  padding: 0 auto;
+  border-right: solid 1px #bbb;
+  text-align: center;
+}
+
+.footer li:last-child{
+  border-right: none;
+}
+
+.footer a{
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+#copyright{
+  text-align: center;
+  font-size: 0.6rem;
+  color: #999;
+  margin: 1rem 0;
+}
+/* footer out */
+/* fin */
